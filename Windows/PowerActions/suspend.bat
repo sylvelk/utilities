@@ -1,0 +1,1 @@
+Powershell.exe -windowstyle hidden "Add-Type -AssemblyName System.Windows.Forms;$PowerState = [System.Windows.Forms.PowerState]::Suspend;$Force = $false;$DisableWake = $false;[System.Windows.Forms.Application]::SetSuspendState($PowerState, $Force, $DisableWake);"
